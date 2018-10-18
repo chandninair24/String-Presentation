@@ -1,0 +1,30 @@
+
+public class Methods {
+
+	public static void main(String[] args)
+	{
+		 StringBuffer s=new StringBuffer("StringBuffer"); 
+		 int x=s.length();
+		 int y=s.capacity();
+		 System.out.println(x);
+		 System.out.println(y);
+		 s.append(1);
+		 System.out.println(s);
+		 s.insert(6,"str");
+		 System.out.println(s);
+		 s.delete(6,7); 
+	        System.out.println(s); 
+	        s.deleteCharAt(8); 
+	        System.out.println(s);
+	        s.replace(5,8,"are"); 
+	        System.out.println(s); 
+	        s.ensureCapacity(100);
+	        int z=s.capacity();
+	        
+	        System.out.println("the new Capacity is " +z);
+	        
+		 
+		 
+	}
+
+}
